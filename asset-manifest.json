@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/KittyCat/static/css/main.a617e044.chunk.css",
-    "main.js": "/KittyCat/static/js/main.349699b4.chunk.js",
-    "main.js.map": "/KittyCat/static/js/main.349699b4.chunk.js.map",
-    "runtime-main.js": "/KittyCat/static/js/runtime-main.eeb902fc.js",
-    "runtime-main.js.map": "/KittyCat/static/js/runtime-main.eeb902fc.js.map",
-    "static/js/2.09a7b78c.chunk.js": "/KittyCat/static/js/2.09a7b78c.chunk.js",
-    "static/js/2.09a7b78c.chunk.js.map": "/KittyCat/static/js/2.09a7b78c.chunk.js.map",
-    "static/js/3.57c78689.chunk.js": "/KittyCat/static/js/3.57c78689.chunk.js",
-    "static/js/3.57c78689.chunk.js.map": "/KittyCat/static/js/3.57c78689.chunk.js.map",
+    "main.css": "/KittyCat/static/css/main.bdfc0210.chunk.css",
+    "main.js": "/KittyCat/static/js/main.dbb38b2e.chunk.js",
+    "main.js.map": "/KittyCat/static/js/main.dbb38b2e.chunk.js.map",
+    "runtime-main.js": "/KittyCat/static/js/runtime-main.24fe1975.js",
+    "runtime-main.js.map": "/KittyCat/static/js/runtime-main.24fe1975.js.map",
+    "static/css/2.65df572b.chunk.css": "/KittyCat/static/css/2.65df572b.chunk.css",
+    "static/js/2.0e5b3e6b.chunk.js": "/KittyCat/static/js/2.0e5b3e6b.chunk.js",
+    "static/js/2.0e5b3e6b.chunk.js.map": "/KittyCat/static/js/2.0e5b3e6b.chunk.js.map",
+    "static/js/3.18e3c385.chunk.js": "/KittyCat/static/js/3.18e3c385.chunk.js",
+    "static/js/3.18e3c385.chunk.js.map": "/KittyCat/static/js/3.18e3c385.chunk.js.map",
     "index.html": "/KittyCat/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/KittyCat/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.09a7b78c.chunk.js.LICENSE.txt": "/KittyCat/static/js/2.09a7b78c.chunk.js.LICENSE.txt"
+    "static/css/2.65df572b.chunk.css.map": "/KittyCat/static/css/2.65df572b.chunk.css.map",
+    "static/css/main.bdfc0210.chunk.css.map": "/KittyCat/static/css/main.bdfc0210.chunk.css.map",
+    "static/js/2.0e5b3e6b.chunk.js.LICENSE.txt": "/KittyCat/static/js/2.0e5b3e6b.chunk.js.LICENSE.txt",
+    "static/media/BigLogo.cc28e1aa.png": "/KittyCat/static/media/BigLogo.cc28e1aa.png",
+    "static/media/cat.3297d80b.jpg": "/KittyCat/static/media/cat.3297d80b.jpg",
+    "static/media/map.69576b36.jpg": "/KittyCat/static/media/map.69576b36.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.eeb902fc.js",
-    "static/js/2.09a7b78c.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.349699b4.chunk.js"
+    "static/js/runtime-main.24fe1975.js",
+    "static/css/2.65df572b.chunk.css",
+    "static/js/2.0e5b3e6b.chunk.js",
+    "static/css/main.bdfc0210.chunk.css",
+    "static/js/main.dbb38b2e.chunk.js"
   ]
 }
