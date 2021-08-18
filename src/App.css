@@ -178,3 +178,158 @@
 
   color: #000000;
 }
+
+
+.adoption-heading {
+
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #000000;
+}
+
+
+.table-heading {
+  
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: #FC46AA;
+}
+
+.adoption-body {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.adoption-body img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.table > tbody > tr > td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.learn-more button {
+  left: 58.12%;
+  right: 30%;
+  top: 37.5%;
+  bottom: 37%;
+
+  background: #FFF3F3;
+  border-radius: 15px;
+
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FC46AA;
+}
+.adopt-me button {
+  left: 72.64%;
+  right: 15.49%;
+  top: 37.5%;
+  bottom: 37%;
+
+  background: #FC46AA;
+  border-radius: 15px;
+
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  margin-left: 10px;
+  margin-right: 5px;
+ 
+}
+.adopt-me i {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.home {
+  
+
+}
+.home img {
+  border-radius: 50%;
+  height: 200px;
+}
+.home-heading-out {
+  
+}
+.home-heading {
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+  margin-top: 50px;
+}
+.home-heading button {
+  
+  align-items: flex-start;
+  padding: 10px 113px;
+
+  background: #FFF3F3;
+  border: 1px solid #FC46AA;
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.home-body-heading {
+  width: 173px;
+  height: 45px;
+  left: 82px;
+  top: 637px;
+
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #000000;
+}

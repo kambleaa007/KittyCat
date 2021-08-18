@@ -4,6 +4,8 @@ import { Container, Navbar, Nav, Col, Row } from 'react-bootstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 import Logo from './common/img/Potential_Logo.jpg';
 import BigLogo from './common/img/BigLogo.png';
@@ -11,6 +13,7 @@ import HomeComponent from './components/Home';
 import MyAppComponent from './components/MyApp';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
+import Adopt from './components/Adopt';
 
 
 function App() {
@@ -18,13 +21,15 @@ function App() {
     <HashRouter>
       <div className="App">
         <NavBar />
+        <br/>
           <Switch>
               <Route path="/" exact component= { (props) => ( <HomeComponent  /> )} />
-              <Route path="/adopt" component={(props) => ( <div>adopt</div> )} />              
+              <Route path="/adopt" component={(props) => ( <Adopt /> )} />              
               <Route path="/aboutus" component={(props) => ( <AboutUs /> )} />
               <Route path="/contactus" component={(props) => ( <ContactUs /> )} />
               
           </Switch>
+        <br/>
         <Footer />
       </div>
     </HashRouter>
@@ -40,7 +45,7 @@ function NavBar() {
     <div className="nav-bar">
         <Navbar className="nav" variant="light">
           <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#/">
             <img src={Logo} width="50px" height="50px" />
           </Navbar.Brand>
           <Nav className="me-auto">
