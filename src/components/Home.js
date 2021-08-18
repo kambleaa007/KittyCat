@@ -4,6 +4,8 @@ import { Container, Navbar, Nav, Col, Row, Table, CardGroup, Card } from 'react-
 
 import './../App.css';
 import Cat from "./../common/img/cat-home.jpg";
+import AboutUs from "./AboutUs";
+import ContactUs from "./ContactUs";
 
 function HomeComponent(props) {
     return (
@@ -32,7 +34,7 @@ function HomeComponent(props) {
                 <Row>
                 <div className="home-body">
                     <CardGroup>
-                        <Card>
+                        <Card style={{"borderColor":"#FC46AA", "borderRadius":"5%"}}>
                             <Card.Img className="d-block mx-auto img-fluid w-50" src={Cat} height="100px" width="100%"/>
                             <Card.Body>
                             <Card.Text>
@@ -45,7 +47,7 @@ function HomeComponent(props) {
                             </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card style={{"borderColor":"#FC46AA", "borderRadius":"5%"}}>
                             <Card.Img className="d-block mx-auto img-fluid w-50" src={Cat} height="100px" width="100%"/>
                             <Card.Body>
                             <Card.Text>
@@ -58,7 +60,7 @@ function HomeComponent(props) {
                             </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card>
+                        <Card style={{"borderColor":"#FC46AA", "borderRadius":"5%"}}>
                             <Card.Img className="d-block mx-auto img-fluid w-50" src={Cat} height="100px" width="100%"/>
                             <Card.Body>
                             <Card.Text>
@@ -74,6 +76,15 @@ function HomeComponent(props) {
                     </CardGroup>
                     </div>
                 </Row>
+                
+                <br/>
+                
+                    <AboutUs />
+                
+                <br/>
+                
+                    <ContactUs />
+                
             </Container>
         </div>
     );
