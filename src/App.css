@@ -283,13 +283,16 @@
 .home img {
   border-radius: 50%;
   height: 200px;
-}
+  width: 200px;
+  text-align: center;
+  display: }
 .home-heading-out {
   
 }
 .home-heading {
 
   font-family: Montserrat;
+  
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -303,7 +306,6 @@
   
   align-items: flex-start;
   padding: 10px 113px;
-
   background: #FFF3F3;
   border: 1px solid #FC46AA;
   box-sizing: border-box;
@@ -332,4 +334,7 @@
   text-align: center;
 
   color: #000000;
+}
+.home-body p {
+  text-align: center;
 }
