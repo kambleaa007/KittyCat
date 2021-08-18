@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/KittyCat/static/css/main.4fe644ed.chunk.css",
-    "main.js": "/KittyCat/static/js/main.20e7775c.chunk.js",
-    "main.js.map": "/KittyCat/static/js/main.20e7775c.chunk.js.map",
-    "runtime-main.js": "/KittyCat/static/js/runtime-main.8f7b0f40.js",
-    "runtime-main.js.map": "/KittyCat/static/js/runtime-main.8f7b0f40.js.map",
+    "main.css": "/KittyCat/static/css/main.0034476d.chunk.css",
+    "main.js": "/KittyCat/static/js/main.3a8d7526.chunk.js",
+    "main.js.map": "/KittyCat/static/js/main.3a8d7526.chunk.js.map",
+    "runtime-main.js": "/KittyCat/static/js/runtime-main.49ec62ce.js",
+    "runtime-main.js.map": "/KittyCat/static/js/runtime-main.49ec62ce.js.map",
     "static/css/2.be5ae97e.chunk.css": "/KittyCat/static/css/2.be5ae97e.chunk.css",
-    "static/js/2.73d4c9e1.chunk.js": "/KittyCat/static/js/2.73d4c9e1.chunk.js",
-    "static/js/2.73d4c9e1.chunk.js.map": "/KittyCat/static/js/2.73d4c9e1.chunk.js.map",
-    "static/js/3.ca95cd33.chunk.js": "/KittyCat/static/js/3.ca95cd33.chunk.js",
-    "static/js/3.ca95cd33.chunk.js.map": "/KittyCat/static/js/3.ca95cd33.chunk.js.map",
+    "static/js/2.e09c752f.chunk.js": "/KittyCat/static/js/2.e09c752f.chunk.js",
+    "static/js/2.e09c752f.chunk.js.map": "/KittyCat/static/js/2.e09c752f.chunk.js.map",
+    "static/js/3.38eff4c4.chunk.js": "/KittyCat/static/js/3.38eff4c4.chunk.js",
+    "static/js/3.38eff4c4.chunk.js.map": "/KittyCat/static/js/3.38eff4c4.chunk.js.map",
     "index.html": "/KittyCat/index.html",
     "static/css/2.be5ae97e.chunk.css.map": "/KittyCat/static/css/2.be5ae97e.chunk.css.map",
-    "static/css/main.4fe644ed.chunk.css.map": "/KittyCat/static/css/main.4fe644ed.chunk.css.map",
-    "static/js/2.73d4c9e1.chunk.js.LICENSE.txt": "/KittyCat/static/js/2.73d4c9e1.chunk.js.LICENSE.txt",
+    "static/css/main.0034476d.chunk.css.map": "/KittyCat/static/css/main.0034476d.chunk.css.map",
+    "static/js/2.e09c752f.chunk.js.LICENSE.txt": "/KittyCat/static/js/2.e09c752f.chunk.js.LICENSE.txt",
     "static/media/BigLogo.cc28e1aa.png": "/KittyCat/static/media/BigLogo.cc28e1aa.png",
+    "static/media/cat-home.9915842e.jpg": "/KittyCat/static/media/cat-home.9915842e.jpg",
     "static/media/cat.3297d80b.jpg": "/KittyCat/static/media/cat.3297d80b.jpg",
     "static/media/cat_headshot.538d5fd3.jpg": "/KittyCat/static/media/cat_headshot.538d5fd3.jpg",
     "static/media/font-awesome.min.css": "/KittyCat/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/map.69576b36.jpg": "/KittyCat/static/media/map.69576b36.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f7b0f40.js",
+    "static/js/runtime-main.49ec62ce.js",
     "static/css/2.be5ae97e.chunk.css",
-    "static/js/2.73d4c9e1.chunk.js",
-    "static/css/main.4fe644ed.chunk.css",
-    "static/js/main.20e7775c.chunk.js"
+    "static/js/2.e09c752f.chunk.js",
+    "static/css/main.0034476d.chunk.css",
+    "static/js/main.3a8d7526.chunk.js"
   ]
 }
