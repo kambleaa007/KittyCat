@@ -37,6 +37,10 @@ Kindly ,
 ``` bash 
 git checkout -b `branch name`
 ```
+- push your code
+``` bash 
+git push origin `branch name`
+```
 - Create a pull request to main branch
 - 🎉 Have patience till we review your PR 🎉
 
