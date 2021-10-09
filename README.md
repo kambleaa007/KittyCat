@@ -2,7 +2,7 @@
 
 ## Local Development :
 
-1. Fork This Project -
+1. Clone and then Fork This Project -
 
 2. Open Your Command Line or Terminal and type - 
 ```bash 
