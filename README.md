@@ -1,4 +1,4 @@
-## Deployed Link is <a href="https://kambleaa007.github.io/KittyCat/#/">HERE</a>
+## Deployed KittyCat App Link is <a href="https://kambleaa007.github.io/KittyCat/#/">HERE</a>
 
 ## Local Development :
 
