@@ -2,7 +2,7 @@
 
 ## Local Development :
 
-1. Clone and then Fork This Project -
+1. Clone and then Fork This Project from `https://github.com/kambleaa007/KittyCat` -
 
 2. Open Your Command Line or Terminal and type - 
 ```bash 
