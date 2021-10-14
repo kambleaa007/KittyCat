@@ -6,7 +6,7 @@
 
 2. Open Your Command Line or Terminal and type - 
 ```bash 
-git clone https://github.com/<YOUR USERNAME>/Global-Chat.git
+git clone https://github.com/<YOUR USERNAME>/KittyCat.git
 ```
 3. change the current working directory to the project - 
 ```bash
