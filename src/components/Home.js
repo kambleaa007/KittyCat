@@ -19,7 +19,11 @@ function HomeComponent(props) {
                                 <br/><br/>   
                                 Be a proud cat owner today! 
                                 <br/><br/>  
-                                <button>Adopt a Cat</button>
+                                <button className="adopt-btn" >
+                                    <a href="#adopt">
+                                        Adopt a Cat
+                                    </a>
+                                </button>
                             </div>
                         </div>
                     </Col>
