@@ -1,6 +1,7 @@
-import React from 'react'
+import React,{useState}  from 'react';
 import { Container, Navbar, Nav, Col, Row, Table, CardGroup, Card } from 'react-bootstrap';
 
+import {MdCancel} from 'react-icons/md';
 
 import './../App.css';
 import Cat from "./../common/img/cat-home.jpg";
@@ -8,7 +9,9 @@ import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 
 function HomeComponent(props) {
+  const [modal, setmodal] = useState(false);
     return (
+        <>
         <div className="home">
             <Container>
                 <Row>
@@ -38,7 +41,7 @@ function HomeComponent(props) {
                 <Row>
                 <div className="home-body">
                     <CardGroup>
-                        <Card style={{"borderColor":"#FC46AA", "borderRadius":"5%"}}>
+                        <Card style={{"borderColor":"#FC46AA", "borderRadius":"5%","cursor":"pointer"}} onClick={() => setmodal(!modal)}>
                             <Card.Img className="d-block mx-auto img-fluid w-50" src={Cat} height="100px" width="100%"/>
                             <Card.Body>
                             <Card.Text>
@@ -51,7 +54,7 @@ function HomeComponent(props) {
                             </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card style={{"borderColor":"#FC46AA", "borderRadius":"5%"}}>
+                        <Card style={{"borderColor":"#FC46AA", "borderRadius":"5%","cursor":"pointer"}} onClick={() => setmodal(!modal)}>
                             <Card.Img className="d-block mx-auto img-fluid w-50" src={Cat} height="100px" width="100%"/>
                             <Card.Body>
                             <Card.Text>
@@ -64,7 +67,7 @@ function HomeComponent(props) {
                             </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card style={{"borderColor":"#FC46AA", "borderRadius":"5%"}}>
+                        <Card style={{"borderColor":"#FC46AA", "borderRadius":"5%","cursor":"pointer"}} onClick={() => setmodal(!modal)}>
                             <Card.Img className="d-block mx-auto img-fluid w-50" src={Cat} height="100px" width="100%"/>
                             <Card.Body>
                             <Card.Text>
@@ -91,6 +94,28 @@ function HomeComponent(props) {
                 
             </Container>
         </div>
+        {modal && <div className="bg-modal">
+        <div className="contactmodal">
+          <h1>DETAILS</h1>
+            <p className="underline"></p>
+          <span class="cancel" onClick={() => setmodal(!modal)}><MdCancel /></span>
+          <div className="content">
+          <div className="img">
+            <img src={Cat} alt="image of cat" />
+          </div>
+          <div className="details">
+            <p>
+                <b>Name </b>: Jane Doe <br/>
+                <b>Breed </b>:  Tabby <br/>
+                <b>Age </b>: 2 <br/>
+                <b>Special Needs </b>: easily scared, missing one front paw
+            </p>
+            <p><b>About :</b><br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores facere dicta dolorem praesentium? Laboriosam repudiandae velit enim minima modi aliquam.</p>
+          </div>
+          </div>
+        </div>
+      </div> }
+    </>
     );
 }
 
