@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .nav {
-  background-color: #FFF3F3;
+  background-color: #ffe9e9;
 }
 
 .footer-top-text {
@@ -54,7 +54,6 @@
   line-height: 17px;
   text-align: center;
   text-transform: uppercase;
-
   color: #000000;
 }
 
@@ -65,7 +64,6 @@
   right: 26.94%;
   top: 28.12%;
   bottom: 25%;
-
   font-family: Caveat;
   font-style: normal;
   font-weight: normal;
@@ -419,4 +417,12 @@
   font-size: 18px;
   font-family: monospace;
   border: none;
+}
+
+.catCard:hover{
+  background-color: #ffa5d7;
+  transition: all .2s linear;
+  color: #fff;
+  font-weight: 600;
+  transform: translateY(-10px);
 }
