@@ -339,6 +339,12 @@
   text-align: center;
 }
 
+.adopt-btn a, 
+.adopt-btn a:hover{
+  text-decoration: none;
+  color: #000;
+}
+
 .bg-modal{
   position: fixed;
   top: 0;
