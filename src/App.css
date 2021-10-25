@@ -6,12 +6,12 @@
 }
 
 .footer-top-text {
-  
+
   left: 12.57%;
   right: 64.03%;
   top: 11.27%;
   bottom: 67.61%;
-  
+
   font-family: Caveat;
   font-style: normal;
   font-weight: bold;
@@ -19,12 +19,12 @@
   line-height: 30px;
   text-align: center;
   text-transform: capitalize;
-  
+
   color: #000000;
 }
 
 .footer-bottom-text {
-  
+
   left: 13.12%;
   right: 62.01%;
   top: 36.69%;
@@ -41,7 +41,7 @@
 }
 
 .footer-button {
-  
+
   left: 48.4%;
   right: 44.24%;
   top: 25.44%;
@@ -69,10 +69,42 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 30px;
-
   color: #000000;
+  margin-bottom: 160px;
 }
 
+
+.custom-navlink-styles {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.custom-navlink-styles a {
+  color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+.custom-navlink-styles a:hover {
+  color: rgb(255, 255, 255,0.6) !important;
+}
+
+.custom-nav-styles {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  width: 100%;
+  background: #EB9297;
+
+}
+
+
+.header-cat-image {
+  box-shadow: 0 0 0 3px #EB9297;
+}
 
 
 
@@ -81,13 +113,13 @@
   right: 54.03%;
   top: 19.1%;
   bottom: 10.91%;
-  
+
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 27px;
-  
+
   color: #000000;
 }
 
@@ -95,18 +127,20 @@
   border: 0;
   outline: 0;
   background: transparent;
-  border-bottom: 1px solid #FC46AA ;
+  border-bottom: 1px solid #FC46AA;
   transform: rotate(0.23deg);
 }
+
 .contact-us-text-body textarea {
   border: 0;
   outline: 0;
   background: transparent;
-  border: 1px solid #FC46AA ;
+  border: 1px solid #FC46AA;
   border-radius: 5%;
   transform: rotate(0.23deg);
   resize: none;
 }
+
 .contact-us-map {
   left: 50.97%;
   right: 2.02%;
@@ -114,6 +148,7 @@
   bottom: 3.21%;
   text-align: center;
 }
+
 .contact-us-map img {
   height: 300px;
   width: 300px;
@@ -126,21 +161,20 @@
 }
 
 .about-us-cat {
-  
+
   left: -4.24%;
   right: 59.79%;
   top: 7.05%;
   bottom: -4.09%;
 
-  
+
 }
+
 .about-us-cat img {
   border-radius: 50%;
 }
 
-.about-us-text {
-
-}
+.about-us-text {}
 
 .about-us-text-heading {
   text-align: center;
@@ -192,7 +226,7 @@
 
 
 .table-heading {
-  
+
   font-family: Caveat;
   font-style: normal;
   font-weight: bold;
@@ -200,7 +234,7 @@
   line-height: 25px;
   text-align: center;
   text-transform: uppercase;
-  
+
   color: #FC46AA;
 }
 
@@ -215,12 +249,14 @@
 
   color: #000000;
 }
+
 .adoption-body img {
   border-radius: 50%;
   height: 100px;
   width: 100px;
 }
-.table > tbody > tr > td {
+
+.table>tbody>tr>td {
   vertical-align: middle;
   text-align: center;
 }
@@ -245,6 +281,7 @@
 
   color: #FC46AA;
 }
+
 .adopt-me button {
   left: 72.64%;
   right: 15.49%;
@@ -252,6 +289,7 @@
   bottom: 37%;
 
   background: #FC46AA;
+
   border-radius: 15px;
 
   font-family: Caveat;
@@ -266,46 +304,44 @@
 
   margin-left: 10px;
   margin-right: 5px;
- 
+
 }
+
 .adopt-me i {
   margin-left: 5px;
   margin-right: 5px;
 }
 
 
-.home {
-  
+.home {}
 
-}
 .home img {
   border-radius: 50%;
   height: 200px;
   width: 200px;
   text-align: center;
-  }
-.home-heading-out {
-  
 }
+
+.home-heading-out {}
+
 .home-heading {
 
   font-family: Montserrat;
-  
+
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
-
   color: #000000;
-  margin-top: 50px;
 }
+
 .home-heading button {
-  
+
   align-items: flex-start;
   padding: 10px 113px;
-  background: #FFF3F3;
-  border: 1px solid #FC46AA;
+  background: #EB9297;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   border-radius: 15px;
   font-family: Caveat;
@@ -333,17 +369,23 @@
 
   color: #000000;
 }
+
 .home-body p {
   text-align: center;
 }
 
-.adopt-btn a, 
-.adopt-btn a:hover{
-  text-decoration: none;
-  color: #000;
+.adopt-btn {
+  /* background-color: red !important; */
 }
 
-.bg-modal{
+.adopt-btn a,
+.adopt-btn a:hover {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.bg-modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -353,23 +395,23 @@
   width: 100%;
 }
 
-.contactmodal{
+.contactmodal {
   position: relative;
   top: 50%;
   left: 50%;
   background-color: white;
   max-width: 720px;
   width: 100%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   animation: modal 0.2s ease-in-out 1;
   padding: 6px 0px;
 }
 
-.contactmodal{
+.contactmodal {
   text-align: center
 }
 
-.underline{
+.underline {
   border-bottom: 1px solid black;
   width: 70%;
   position: relative;
@@ -378,16 +420,17 @@
 
 @keyframes modal {
   0% {
-      left:50%;
-      transform: translate(-50%,-50%) scale(0, 0) ;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0, 0);
   }
+
   100% {
-      left:50%;
-      transform: translate(-50%,-50%) scale(1, 1) ;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1, 1);
   }
 }
 
-.cancel{
+.cancel {
   font-size: 32px;
   position: absolute;
   top: 0px;
@@ -395,13 +438,13 @@
   cursor: pointer;
 }
 
-.content{
+.content {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   width: 100%;
   align-items: center;
-  justify-content:space-evenly;
-  margin:20px 0px;
+  justify-content: space-evenly;
+  margin: 20px 0px;
 }
 
 .content img {
@@ -410,7 +453,7 @@
   border-radius: 50%;
 }
 
-.content .details p{
+.content .details p {
   margin: 20px;
   text-align: left;
   font-size: 16px;
@@ -419,10 +462,22 @@
   border: none;
 }
 
-.catCard:hover{
-  background-color: #ffa5d7;
+
+
+.Typewriter {
+  height: 60px;
+}
+
+.home-body-heading {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+
+ .catCard:hover {
+  background-color: #eb7278;
   transition: all .2s linear;
-  color: #fff;
-  font-weight: 600;
   transform: translateY(-10px);
+  font-weight: 600;
+  color: #fff;
 }
