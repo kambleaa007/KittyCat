@@ -157,7 +157,10 @@
 
 
 .about-us {
-  background-color: #FFF3F3;
+  border-radius: 10px;
+  border: 1px solid rgb(235, 146, 151,0.3);
+  padding: 1rem;
+  height: 300px;
 }
 
 .about-us-cat {
@@ -172,9 +175,12 @@
 
 .about-us-cat img {
   border-radius: 50%;
+  box-shadow: 0 0 0 5px #EB9297;
 }
 
-.about-us-text {}
+.about-us-text {
+ 
+}
 
 .about-us-text-heading {
   text-align: center;
@@ -182,7 +188,7 @@
   right: 30.07%;
   top: 12.5%;
   bottom: 77.27%;
-
+  margin-bottom: 20px;
   font-family: Caveat;
   font-style: normal;
   font-weight: bold;
@@ -191,7 +197,7 @@
   text-align: center;
   text-transform: capitalize;
 
-  color: #FC46AA;
+  color: #EB9297;
 }
 
 .about-us-text-body {
@@ -203,12 +209,11 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 22px;
   text-align: center;
   text-transform: capitalize;
-
-  color: #000000;
+  color: rgb(0, 0, 0,0.6);
 }
 
 

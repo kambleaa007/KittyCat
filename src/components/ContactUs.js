@@ -9,7 +9,7 @@ function ContactUs(props) {
     return (
         <div className="about-us mt-5">
             <Container>
-                <div>
+                <div className="about-us-cols">
                 <Row>
                     <Col sm={6}>
                         <div className="about-us-text m-2">
@@ -24,7 +24,7 @@ function ContactUs(props) {
                         </div>
                     </Col>
                     <Col sm={6}>
-                        <div className="contact-us-map m-3">
+                        <div  className="contact-us-map m-3">
                             <img src={Map} />
                         </div>
                     </Col>
