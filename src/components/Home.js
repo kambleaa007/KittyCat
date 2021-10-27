@@ -14,6 +14,10 @@ import {MdCancel} from "react-icons/md";
 
 import "./../App.css";
 import Cat from "./../common/img/cat-home.jpg";
+import ConCat1 from "../common/img/con-cat1.jpg"
+import ConCat2 from "../common/img/con-cat2.jpg"
+import ConCat3 from "../common/img/con-cat3.jpg"
+
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 
@@ -55,7 +59,7 @@ function HomeComponent(props) {
               </div>
             </Col>
             <Col sm={4}>
-              <img src={Cat} />
+              <img className="header-cat-image"  src={Cat} alt="header cat image" />
             </Col>
           </Row>
 
@@ -69,16 +73,45 @@ function HomeComponent(props) {
                 <Card
                   className="catCard"
                   style={{
-                    border: "1px solid #FC46AA",
+                    border: "1px solid rgba(235, 146, 151,0.3)",
                     borderRadius: "5%",
                     cursor: "pointer",
                     marginRight: "5px",
                   }}
                   onClick={() => setmodal(!modal)}
                 >
+                 <div>
+                 <Card.Img
+                    className="custom-card-img d-block mx-auto img-fluid w-50 mt-3"
+                    src={ConCat1}
+                    width="100px"
+                    height="auto"
+                  />
+                 </div>
+                  <Card.Body>
+                    <Card.Text>
+                      <p>
+                        Name: Jane Doe <br />
+                        Breed: Tabby <br />
+                        Age: 2 <br />
+                        Special Needs: easily scared, missing one front paw
+                      </p>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+                <Card
+                  className="catCard"
+                  style={{
+                    border: "1px solid rgba(235, 146, 151,0.3)",
+                    borderRadius: "5%",
+                    cursor: "pointer",
+                    marginLeft: "5px",
+                  }}
+                  onClick={() => setmodal(!modal)}
+                >
                   <Card.Img
                     className="d-block mx-auto img-fluid w-50 mt-3"
-                    src={Cat}
+                    src={ConCat2}
                     height="100px"
                     width="100%"
                   />
@@ -96,7 +129,7 @@ function HomeComponent(props) {
                 <Card
                   className="catCard"
                   style={{
-                    border: "1px solid #FC46AA",
+                    border: "1px solid rgba(235, 146, 151,0.3)",
                     borderRadius: "5%",
                     cursor: "pointer",
                     marginLeft: "5px",
@@ -105,34 +138,7 @@ function HomeComponent(props) {
                 >
                   <Card.Img
                     className="d-block mx-auto img-fluid w-50 mt-3"
-                    src={Cat}
-                    height="100px"
-                    width="100%"
-                  />
-                  <Card.Body>
-                    <Card.Text>
-                      <p>
-                        Name: Jane Doe <br />
-                        Breed: Tabby <br />
-                        Age: 2 <br />
-                        Special Needs: easily scared, missing one front paw
-                      </p>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-                <Card
-                  className="catCard"
-                  style={{
-                    border: "1px solid #FC46AA",
-                    borderRadius: "5%",
-                    cursor: "pointer",
-                    marginLeft: "5px",
-                  }}
-                  onClick={() => setmodal(!modal)}
-                >
-                  <Card.Img
-                    className="d-block mx-auto img-fluid w-50 mt-3"
-                    src={Cat}
+                    src={ConCat3}
                     height="100px"
                     width="100%"
                   />
