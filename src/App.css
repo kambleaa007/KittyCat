@@ -119,7 +119,12 @@
   font-weight: normal;
   font-size: 22px;
   line-height: 27px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  justify-content: center;
   color: #000000;
 }
 
@@ -196,7 +201,7 @@
   line-height: 45px;
   text-align: center;
   text-transform: capitalize;
-
+  width: 420px;
   color: #EB9297;
 }
 
@@ -485,4 +490,43 @@
   transform: translateY(-10px);
   font-weight: 600;
   color: #fff;
+}
+
+
+.contact-us {
+  height: 450px;
+}
+
+.custom-col-1, .custom-col-2  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-name {
+  font-size: 0.8rem;
+  margin-bottom: -3px;
+  opacity: 0.5;
+}
+
+input, textarea{
+  all: unset !important;
+  width: 350px !important;
+  height: 20px !important;
+  border-radius: 3px !important; 
+  font-size: 1rem !important;
+  padding: 10px 20px !important;
+  background: rgb(255, 192, 203,0.1) !important;
+  border: 1px solid rgb(252, 70, 170,0.3) !important;
+}
+
+textarea {
+  height: 80px !important;
+}
+
+
+input::placeholder, textarea::placeholder {
+  font-size: 0.8rem;
+  font-weight: bold;
+  opacity: 0.5;
 }
