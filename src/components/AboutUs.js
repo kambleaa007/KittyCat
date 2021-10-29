@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Navbar, Nav, Col, Row } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 
 
 import './../App.css';
@@ -11,8 +11,8 @@ function AboutUs(props) {
             <Container>
                 <Row>
                     <Col sm={4}>
-                        <div className="about-us-cat m-4">
-                            <img src={Cat} />
+                        <div className="about-us-cat mt-2">
+                            <img src={Cat} alt="cat" />
                         </div>
                     </Col>
                     <Col sm={8}>
