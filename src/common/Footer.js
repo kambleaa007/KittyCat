@@ -1,4 +1,4 @@
-import { Container, Navbar, Nav, Col, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 import './../App.css';
 import BigLogo from "./img/BigLogo.png";
@@ -17,7 +17,7 @@ function Footer() {
 
       <Row>
           <Col sm={1} className="my-3">
-            <img src={BigLogo} width="100px" height="auto" />
+            <img src={BigLogo} width="100px" height="auto" alt="bigLogo" />
           </Col>
           <Col sm={4} className="my-3">
             <div className="footer-top-text">Time spent with cats is never wasted</div>
@@ -36,10 +36,10 @@ function Footer() {
         </Row>
         <Col sm={2} className="my-3">
           <div className="footer-button" style={{ cursor: "pointer" }}>
-            <Col><img src={Facebook} /></Col>
-            <Col><img src={Insta} /></Col>
-            <Col><img src={Twitter} /></Col>
-            <Col><img src={Youtube} /></Col>
+            <Col><img src={Facebook} alt="facebook" /></Col>
+            <Col><img src={Insta} alt="instagram" /></Col>
+            <Col><img src={Twitter} alt="twitter" /></Col>
+            <Col><img src={Youtube} alt="youtube" /></Col>
           </div>
         </Col>
       </Row>

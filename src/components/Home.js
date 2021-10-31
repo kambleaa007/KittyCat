@@ -1,11 +1,8 @@
 import React, {useState} from "react";
 import {
   Container,
-  Navbar,
-  Nav,
   Col,
   Row,
-  Table,
   CardGroup,
   Card,
 } from "react-bootstrap";
@@ -59,7 +56,7 @@ function HomeComponent(props) {
               </div>
             </Col>
             <Col sm={4}>
-              <img className="header-cat-image"  src={Cat} alt="header cat image" />
+              <img className="header-cat-image"  src={Cat} alt="header_cat_image" />
             </Col>
           </Row>
 
@@ -176,7 +173,7 @@ function HomeComponent(props) {
             </span>
             <div className="content">
               <div className="img">
-                <img src={Cat} alt="image of cat" />
+                <img src={Cat} alt="image_of_cat" />
               </div>
               <div className="details">
                 <p>

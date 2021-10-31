@@ -30,7 +30,7 @@ function Adopt(props) {
                 <tbody>
                   <tr>
                     <td>
-                      <img src={Cat} />
+                      <img src={Cat} alt="catImage" />
                     </td>
                     <td>Whiskers</td>
                     <td>American ShortHair</td>
@@ -63,7 +63,7 @@ function Adopt(props) {
                   </tr>
                   <tr>
                     <td>
-                      <img src={Cat} />
+                      <img src={Cat} alt="catImage"/>
                     </td>
                     <td>Whiskers</td>
                     <td>American ShortHair</td>
@@ -96,7 +96,7 @@ function Adopt(props) {
                   </tr>
                   <tr>
                     <td>
-                      <img src={Cat} />
+                      <img src={Cat} alt="catImage"/>
                     </td>
                     <td>Whiskers</td>
                     <td>American ShortHair</td>
@@ -129,7 +129,7 @@ function Adopt(props) {
                   </tr>
                   <tr>
                     <td>
-                      <img src={Cat} />
+                      <img src={Cat} alt="catImage"/>
                     </td>
                     <td>Whiskers</td>
                     <td>American ShortHair</td>
