@@ -181,6 +181,8 @@
 .about-us-cat img {
   border-radius: 50%;
   box-shadow: 0 0 0 5px #EB9297;
+  width: 270px ;
+  height: 260px ;
 }
 
 .about-us-text {
