@@ -1,5 +1,4 @@
 import { Modal, Button, Container, Row, Col, Image } from 'react-bootstrap'
-import Cat from './../common/img/cat-home.jpg'
 
 function CatModal(props) {
   if (!props.show) {
@@ -22,20 +21,18 @@ function CatModal(props) {
           <Container>
             <Row>
               <Col xs={12} lg={4} className="m-auto">
-                <Image src={Cat} roundedCircle fluid />
+                <Image src={props.image} roundedCircle fluid />
               </Col>
               <Col xs={12} lg={8}>
                 <p>
-                  <b>Name </b>: Jane Doe <br />
-                  <b>Breed </b>: Tabby <br />
-                  <b>Age </b>: 2 <br />
-                  <b>Special Needs </b>: easily scared, missing one front paw
+                  <b>Name </b>: {props.name} <br />
+                  <b>Breed </b>: {props.breed} <br />
+                  <b>Age </b>: {props.age} <br />
+                  <b>Special Needs </b>: {props.specialneeds}
                 </p>
                 <p>
                   <b>About :</b>
-                  <br /> Lorem ipsum dolor sit amet consectetur, adipisicing
-                  elit. Maiores facere dicta dolorem praesentium? Laboriosam
-                  repudiandae velit enim minima modi aliquam.
+                  <br /> {props.about}
                 </p>
               </Col>
             </Row>
