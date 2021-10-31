@@ -1,5 +1,4 @@
-import { HashRouter, BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Container, Navbar, Nav, Col, Row } from 'react-bootstrap';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,10 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 
-import Logo from './common/img/Potential_Logo.jpg';
-import BigLogo from './common/img/BigLogo.png';
 import HomeComponent from './components/Home';
-import MyAppComponent from './components/MyApp';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Adopt from './components/Adopt';
