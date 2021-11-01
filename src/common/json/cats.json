@@ -1,0 +1,49 @@
+{
+  "totalcats": [
+    {
+      "id": 1,
+      "image": "con-cat1.jpg",
+      "name": "Whiskers",
+      "breed": "American ShortHair",
+      "age": "2",
+      "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores facere dicta dolorem praesentium? Laboriosam repudiandae velit enim minima modi aliquam.",
+      "specialneeds": "easily scared, missing one front paw"
+    },
+    {
+      "id": 2,
+      "image": "con-cat2.jpg",
+      "name": "Whiskers2",
+      "breed": "American ShortHair2",
+      "age": "1.5",
+      "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores facere dicta dolorem praesentium? Laboriosam repudiandae velit enim minima modi aliquam.",
+      "specialneeds": "easily scared, missing one front paw"
+    },
+    {
+      "id": 3,
+      "image": "con-cat3.jpg",
+      "name": "Whiskers3",
+      "breed": "American ShortHair3",
+      "age": "2",
+      "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores facere dicta dolorem praesentium? Laboriosam repudiandae velit enim minima modi aliquam.",
+      "specialneeds": "easily scared, missing one front paw"
+    },
+    {
+      "id": 4,
+      "image": "cat.jpg",
+      "name": "Whiskers4",
+      "breed": "American ShortHair4",
+      "age": "1",
+      "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores facere dicta dolorem praesentium? Laboriosam repudiandae velit enim minima modi aliquam.",
+      "specialneeds": "easily scared, missing one front paw"
+    },
+    {
+      "id": 5,
+      "image": "cat_headshot.jpg",
+      "name": "Whiskers5",
+      "breed": "American ShortHair5",
+      "age": "2",
+      "about": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores facere dicta dolorem praesentium? Laboriosam repudiandae velit enim minima modi aliquam.",
+      "specialneeds": "easily scared, missing one front paw"
+    }
+  ]
+}
